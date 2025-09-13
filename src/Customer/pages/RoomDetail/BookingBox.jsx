@@ -16,7 +16,7 @@ import dayjs from "dayjs";
 import { StarFilled, UserOutlined } from "@ant-design/icons";
 import { ChevronDown } from "lucide-react";
 import { bookingService } from "../../api/bookingService";
-import "./BookingBox.css"; // Import CSS file for custom styles
+import "./bookingBox.css"; // Import CSS file for custom styles
 import isBetween from "dayjs/plugin/isBetween";
 import toast from "react-hot-toast";
 
