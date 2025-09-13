@@ -1,0 +1,141 @@
+.userlist-body {
+    display: flex;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  .userlist-main {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f3f3f3;
+  }
+  
+  .userlist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .userlist-h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .userlist-user-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userlist-avatar {
+    background-color: #007bff;
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+
+  .userlist-user-section span {
+    color: #007bff;
+    margin: 10px;
+  }
+
+  .userlist-user-section span:hover {
+    color: #102dac;
+  }
+
+  .userlist-home {
+    cursor: pointer;
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .userlist-btn-add {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .userlist-btn-add:hover {
+    background-color: #218838;
+  }
+  
+  .userlist-search-box {
+    display: flex;
+    margin: 20px 0;
+  }
+  
+  .userlist-search-box userlist-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #1d1a1a;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .userlist-search-box userlist-button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .userlist-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 10px;
+  }
+  
+  .userlist-table th, .userlist-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .userlist-table td .userlist-table-i {
+    margin-right: 10px;
+    color: #2980b9;
+    cursor: pointer;
+  }
+
+  .userlist-a-edit .userlist-i {
+    color: #2ecc71;
+  }
+
+  .userlist-a-delete .userlist-i {
+    color: #e74c3c;
+  }
+
+  .userlist-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+  }
+
+  .userlist-pagination .userlist-button {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .userlist-pagination .userlist-button.active {
+    background-color: #1890ff;
+    color: white;
+    border-color: #1890ff;
+  }
